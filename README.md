@@ -2,7 +2,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/pytest-fmu-filter.svg)](https://pypi.org/project/pytest-fmu-filter)
 [![Python versions](https://img.shields.io/pypi/pyversions/pytest-fmu-filter.svg)](https://pypi.org/project/pytest-fmu-filter)
-[![See Build Status on GitHub Actions](https://github.com/ticoder00/pytest-fmu-filter/actions/workflows/main.yml/badge.svg)](https://github.com/ticoder00/pytest-fmu-filter/actions/workflows/main.yml)
+[![See Build Status on GitHub Actions](https://github.com/ticoder00/pytest-fmu-filter/actions/workflows/main.yml/badge.svg)](https://github.com/time-integral/pytest-fmu-filter/actions/workflows/ci.yml)
 
 A pytest plugin to filter and parameterize tests with FMU (Functional Mock-up Unit) files.
 
@@ -26,7 +26,7 @@ The plugin allows you to:
 
 ## Requirements
 
-- Python 3.8 or higher
+- Python 3.10 or higher
 - pytest 7.0.0 or higher
 
 ## Installation
@@ -116,10 +116,6 @@ def test_parameterized_model(fmu):
     # Test will only run with Model Exchange FMUs that have parameters and "Model" in their name
     pass
 ```
-
-## Contributing
-
-Contributions are very welcome! Tests can be run with `tox`, please ensure the coverage at least stays the same before you submit a pull request.
 
 ## License
 
