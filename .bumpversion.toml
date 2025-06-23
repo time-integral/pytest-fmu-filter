@@ -9,4 +9,4 @@ replace = "{new_version}"
 filename = "pyproject.toml"
 
 [[tool.bumpversion.files]]
-filename = "src/mcp_fmu/__init__.py"
+filename = "src/pytest_fmu_filter/__init__.py"
