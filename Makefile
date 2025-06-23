@@ -35,12 +35,15 @@ format: ## Format code using pre-commit hooks
 
 patch: ## Bump version patch
 	@uvx bump-my-version bump patch
+	uv lock --upgrade
 
 minor: ## Bump version minor
 	@uvx bump-my-version bump minor
+	uv lock --upgrade
 
 major: ## Bump version major
 	@uvx bump-my-version bump major
+	uv lock --upgrade
 
 build: install ## Build the package
 	@echo "🚀 Building the package"
